@@ -1,8 +1,6 @@
 import React from "react";
 import { PageTemplate } from "../../components/PageTemplate/PageTemplate";
 import { SkillCard } from "../../components/SkillCard/SkillCard";
-import Image from "../../assets/img/projects.png";
-import { ImageContainer } from "../../components/ImageContainer/ImageContainer";
 
 const skillsList = [
   {
@@ -150,7 +148,7 @@ const skillsList = [
 const Skills = () => {
   return (
     <PageTemplate id="skills" classes="flex">
-      <div className="w-full sm:w-1/2 h-full min-h-screen hidden sm:block bg-[url('./src/assets/img/projects.png')] bg-cover"></div>
+      <div className="w-full sm:w-1/2 h-full min-h-screen hidden sm:block bg-[url('./src/assets/img/skills.png')] bg-cover"></div>
       <div className="w-full sm:w-1/2 px-16 h-full min-h-screen flex flex-wrap gap-4 justify-start items-center bg-left-top">
         <h1 className="text-center w-full font-extrabold text-black text-4xl mt-12">
           My Skills

@@ -4,7 +4,7 @@ import { ShadowButton } from "../../components/ShadowButton/ShadowButton";
 const Home = () => {
   return (
     <section
-      className={`bg-[url("src/assets/img/bg.png")] bg-cover sm:bg-cover w-screen h-screen flex justify-center items-center flex-col`}
+      className={`bg-[url("./src/assets/img/bg.png")] bg-cover sm:bg-cover w-screen h-screen flex justify-center items-center flex-col`}
     >
       <h2
         className={`text-black uppercase font-roboto text-xl sm:text-3xl`}
