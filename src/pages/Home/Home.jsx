@@ -1,11 +1,13 @@
 import React from "react";
 import { ShadowButton } from "../../components/ShadowButton/ShadowButton";
+import img from "/src/assets/img/bg.png";
 
 const Home = () => {
   return (
     <section
-      className={`bg-[url("./src/assets/img/bg.png")] bg-cover sm:bg-cover w-screen h-screen flex justify-center items-center flex-col`}
+      className={`bg-[url(".src/assets/img/bg.png")] bg-cover sm:bg-cover w-screen h-screen flex justify-center items-center flex-col`}
     >
+      <img src={img} alt="" className= "absolute -z-50 object-cover w-full h-full"/>
       <h2
         className={`text-black uppercase font-roboto text-xl sm:text-3xl`}
         data-aos="fade-down"
